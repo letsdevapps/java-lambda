@@ -2,6 +2,7 @@ package com.pro;
 
 import com.pro.demo.StreamDemo;
 import com.pro.functional.Operacao;
+import com.pro.reference.MethodReferencee;
 
 public class App {
 	public static void main(String[] args) {
@@ -12,11 +13,15 @@ public class App {
 		sd.transformElements();
 		sd.filterElements();
 		sd.reduceElements();
-		
+
 		System.out.println("----- Java Lambda | Functional Interface -----");
 		Operacao somar = (a, b) -> a + b;
 		System.out.println("Operação soma:" + somar.executar(3, 4));
 		Operacao subtrair = (a, b) -> a - b;
 		System.out.println("Operação soma:" + subtrair.executar(3, 4));
+
+		System.out.println("----- Java Lambda | Referencias a Metodos -----");
+		MethodReferencee ref = new MethodReferencee();
+		ref.outPrintln();
 	}
 }
