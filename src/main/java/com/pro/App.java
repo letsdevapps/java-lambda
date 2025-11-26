@@ -3,6 +3,7 @@ package com.pro;
 import com.pro.demo.StreamDemo;
 import com.pro.functional.Operacao;
 import com.pro.reference.MethodReferencee;
+import com.pro.tarefas.GerenciadorTarefas;
 
 public class App {
 	public static void main(String[] args) {
@@ -23,5 +24,8 @@ public class App {
 		System.out.println("----- Java Lambda | Referencias a Metodos -----");
 		MethodReferencee ref = new MethodReferencee();
 		ref.outPrintln();
+
+		System.out.println("----- Java Lambda | Gerenciador de Tarefas -----");
+		new GerenciadorTarefas();
 	}
 }
