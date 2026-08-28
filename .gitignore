@@ -4,6 +4,7 @@ target/
 .classpath
 .project
 
+dependency-reduced-pom.xml
 lambda-package/
 lambda.zip
 response.json
