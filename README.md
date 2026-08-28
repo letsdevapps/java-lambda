@@ -7,11 +7,13 @@ Projeto generico para demonstração de funções Lambda do Java, tipos:
 * Function: Função que recebe um valor e retorna outro
 * Predicate: Função que retorna um valor booleano
 
+## AWS Lambda
+
+[AWS Lambda](docs/aws-lambda.md)
+
 ## Maven Generate
 
     mvn archetype:generate -DgroupId=com.pro -DartifactId=java-lambda -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
     mvn clean package
-
-## 
 
