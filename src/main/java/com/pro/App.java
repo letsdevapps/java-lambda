@@ -1,5 +1,8 @@
 package com.pro;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 import com.pro.demo.StreamDemo;
 import com.pro.functional.Operacao;
 import com.pro.reference.MethodReferencee;
